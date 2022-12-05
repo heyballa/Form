@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+  }
+  .bg {
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+    color: black;
+    padding: 10px;
+    min-height: 100vh;
+    max-height: 200vh;
+  }
+  .heading {
+    font-family: 'bree serif';
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+  }
+  .table {
+    font-family: 'bree serif';
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+  }
+  .card {
+    width: 50%;
+    height: 50%;
+    margin-left: 50px;
+  }
+  .name {
+    color: black;
+    font-family: "roboto";
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .input {
+    width: 300px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .gen {
+    font-family: 'roboto';
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .buttonAline {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .button {
+    width: 150px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    border-radius: 9px;
+    border: 0px;
+    margin-left: 50px;
+    font-family: 'roboto';
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .box {
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  .boxesAline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .table {
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'roboto';
+    font-size: 500;
+    text-align: center;
+  }
+  .margin {
+    margin: 50px;
+  }
+  
