@@ -58,7 +58,7 @@ class App extends Component {
     let display
     if (Display === true) {
       display = (
-        <table border={1} cellPadding={10} className="table">
+        <table border={1} cellPadding={10} className="content-table">
           <tr>
             <td className="margin">First Name</td>
             <td className="margin">Last Name</td>
@@ -66,7 +66,7 @@ class App extends Component {
             <td className="margin">Date Of Birth</td>
             <td className="margin">Email</td>
           </tr>
-          <tr>
+          <tr className='active-row'>
             <td>{firstName}</td>
             <td>{lastName}</td>
             <td>{phone}</td>
